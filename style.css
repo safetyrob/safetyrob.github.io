@@ -1,0 +1,43 @@
+#header {
+  background-color: honeydew;
+  color: black;
+  padding: 40px;
+  text-align: center;
+}
+
+.card-body {
+  background-color: goldenrod;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.businessName {
+  background-color: lightslategrey;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.address {
+  background-color: lightsteelblue;
+  color: black;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.description {
+  background-color: cornflowerblue;
+  color: black;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.image {
+  width: 50%;
+}
