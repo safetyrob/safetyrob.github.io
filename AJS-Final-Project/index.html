@@ -1,0 +1,33 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AJS Final Project</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <h1 id="header">Transwannabe A Bank</h1>
+
+    <div>
+      <label for="deposit">Deposit Amount: </label>
+      <input type="number" id="deposit" name="deposit" />
+    </div>
+    <div>
+      <label for="withdraw">Withdraw Amount: </label>
+      <input type="number" id="withdraw" name="withdraw" />
+    </div>
+    <div>
+      <label for="accountbal">Account Balance</label>
+      <input
+        id="accountbal"
+        name="accountbal"
+      />
+    <div>
+      <button type="button" onclick="getAccountBalance()">Submit</button>
+      <button type="button" onclick="ClearFields();">Clear</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
